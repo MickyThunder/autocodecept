@@ -1,0 +1,22 @@
+{
+  "name": "Automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps --verbose --grep '@willow'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.0.7",
+    "playwright": "^1.11.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "got": "^11.8.2",
+    "underscore": "^1.13.1"
+  }
+}
